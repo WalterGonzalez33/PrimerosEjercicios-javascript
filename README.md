@@ -1,3 +1,4 @@
+![JavaScript](./assets/jsIcon.png "JS icon")
 # Ejercicios de JavaScript
 
 ¡Bienvenido a mi repositorio de ejercicios de JavaScript! Este repositorio contiene los ejercicios que estoy realizando como parte de un curso de JavaScript.
