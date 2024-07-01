@@ -47,3 +47,53 @@ main{
         background-image: url('../assets/caret-down-fill.svg');
     }
 }
+
+.statements-container{
+    width: 100%;
+    max-width: 800px;
+}
+.code-container{
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    background-color: #272822;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 15px;
+
+        /* scroll bar personalized */
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #B7AF5E;
+            border-radius: 20px;
+            border: 2px solid #272822;
+        }
+}
+
+.backToIndex-container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    .icon-backToIndex{
+        font-size: 5rem;
+        color: #F7E018;
+    }
+}
+
+.text-warning-code{
+    max-width: 800px;
+}
+
+@media (max-width: 576px) {
+    .backToIndex-container{
+        top: 0;
+        left: 0;
+
+        .icon-backToIndex{
+            font-size: 4rem;
+        }
+    }
+}
