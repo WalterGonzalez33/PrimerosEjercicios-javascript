@@ -1,0 +1,49 @@
+@import url(./prism.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+main{
+    height: 100vh;
+}
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-container{
+    width: 150px;
+    height: 150px;
+}
+.exercises-container{
+    max-width: 600px;
+    height: 380px;
+    overflow-y: scroll;
+
+    /* scroll bar personalized */
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #F7E018;
+        border-radius: 20px;
+        border: 2px solid #000000;
+    }
+}
+
+.accordion-button{
+    background-color: #F7E018 !important;
+    color: #000000 !important;
+    &.collapsed{
+        background-color: var(--bs-secondary-bg) !important;
+        color: var(--bs-tertiary-color) !important;
+    }
+
+    &::after{
+        background-image: url('../assets/caret-down-fill.svg');
+        color: #ffffff !important;
+    }
+    &:not(.collapsed)::after{
+        background-image: url('../assets/caret-down-fill.svg');
+    }
+}
