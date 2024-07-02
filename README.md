@@ -8,7 +8,7 @@
 Este repositorio contiene una colección de ejercicios en JavaScript que abordan diversos temas, desde conceptos básicos hasta avanzados. Los ejercicios están diseñados para mejorar tus habilidades de programación en JS.
 
 ## DEMO
-Mira los ejercicios de una forma más rápida [aqui](http://url-a-la-demo.com).
+Mira los ejercicios de una forma más rápida [aqui](https://exercisesjs.netlify.app/).
 
 ## Estructura del Proyecto
 
