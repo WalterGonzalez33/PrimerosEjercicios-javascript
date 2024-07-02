@@ -1,8 +1,7 @@
-// alert('hello world')
-
 const markdownContent = `
 \`\`\`
-alert('hello world')
+// Hola mundo ^_~
+alert('hello world 😎')
 `;
 
 document.getElementById("content").innerHTML = marked.parse(markdownContent);
