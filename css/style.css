@@ -84,10 +84,21 @@ main{
 }
 
 .text-warning-code{
+    margin-top: 15px;
     max-width: 800px;
 }
 
 @media (max-width: 576px) {
+
+    .main-container{
+        position:static;
+        transform: none;
+    }
+    .statements-container{
+        margin-top: 4.4rem !important;
+        max-height: 200px;
+        overflow-y: scroll;
+    }
     .backToIndex-container{
         top: 0;
         left: 0;
